@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/layout/header.scss","../sass/senttings/color.scss","../sass/senttings/global.scss"],"names":[],"mappings":"AAEA;EACI;EACA,YCDY;EDEZ;;AAEA;EACK;EACA;EACA;;AAGL;EACI;EACA;EACA;;AAGJ;EACI;EACA;EACA;;AAEA;EAEI;;AAEA;EACA;EACA,OC7BD;;;ADmCX;EACI;EACA;;AACA;EACI;EACA,YCzCM;ED0CN,OCzCG;ED0CH;EACA;;;AE5CR;EACI;EACA","file":"style.css"}

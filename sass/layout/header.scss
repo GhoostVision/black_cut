@@ -1,0 +1,47 @@
+@use "../senttings/color.scss" as *;
+
+header{
+    height: 60px;
+    background: $cor-secundaria;
+    border-bottom:2px solid $cor-bordas ;
+
+    .logo_inicio{
+         width: 130px;
+         height: 60px;
+         object-fit: contain;
+    }
+
+    .caixa-links-rapido{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .links-rapidios{
+        display: flex;
+        margin: 13px;
+        gap: 10px;
+
+        li{
+
+            list-style: none;
+
+            a{
+            text-decoration: none;
+            color: $cor-texto;
+            }
+        }
+    }
+}
+
+.caixa-button-header{
+    display: flex;
+    justify-content: center;
+    button{
+        border: none;
+        background: $cor-tematica;
+        color: $cor-texto;
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+}
