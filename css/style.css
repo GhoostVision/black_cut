@@ -4,7 +4,7 @@ header {
   border-bottom: 2px solid #4f4f4f;
 }
 header .logo_inicio {
-  width: 130px;
+  width: 200px;
   height: 60px;
   object-fit: contain;
 }
@@ -41,6 +41,51 @@ header .links-rapidios li a {
 * {
   margin: 0;
   padding: 0;
+}
+
+.inicio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+  background: black;
+}
+.inicio .textoMotivacional {
+  margin: 0px 30px;
+  font-size: 13px;
+  font-weight: 800;
+  color: orange;
+}
+.inicio h1 {
+  color: orange;
+  font-weight: 800;
+  font-size: 60px;
+  margin: 10px 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.inicio p {
+  width: 60%;
+  color: white;
+  margin: 30px;
+  font-size: 17px;
+}
+.inicio .buttonInicio1 {
+  margin: 10px;
+  margin-left: 30px;
+  padding: 10px 30px;
+  border: none;
+  background: orange;
+  color: white;
+  border-radius: 5px;
+}
+.inicio .buttonInicio2 {
+  margin: 10px;
+  padding: 10px 40px;
+  border: 1px solid orange;
+  background: black;
+  color: white;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
