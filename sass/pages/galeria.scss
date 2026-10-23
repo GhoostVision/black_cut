@@ -1,0 +1,51 @@
+@use "../senttings/color.scss" as *;
+
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    background: $cor-secundaria;
+
+    h2{
+        font-weight: 800;
+        color: $cor-tematica;
+        margin-bottom: 0;
+
+        strong{
+            color: $cor-texto;
+        }
+    }
+
+     p{
+            color: $cor-texto;
+            font-size: 13px;
+            margin-bottom: 30px;
+      }
+
+    .box-fotos-corte{
+        display: flex;
+        gap: 20px;
+
+        .cards-fotos-cortes{
+            border: 1px solid $cor-bordas;
+            border-radius: 5px;
+            padding-bottom: 20px;
+
+            h4{
+                color: $cor-texto;
+                font-size: 13px;
+                margin: 5px 10px;
+                padding-bottom: 3px;
+                border-bottom: 1px solid $cor-tematica;
+            }
+        }
+
+        img{
+            width: 200px;
+            height: 180px;
+            border-radius: 5px 5px 0 0;
+        }
+    }
+}

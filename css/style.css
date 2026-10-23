@@ -191,4 +191,47 @@ header .links-rapidios li a {
   height: 300px;
 }
 
+.galeria {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+  background: #141414;
+}
+.galeria h2 {
+  font-weight: 800;
+  color: orange;
+  margin-bottom: 0;
+}
+.galeria h2 strong {
+  color: white;
+}
+.galeria p {
+  color: white;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+.galeria .box-fotos-corte {
+  display: flex;
+  gap: 20px;
+}
+.galeria .box-fotos-corte .cards-fotos-cortes {
+  border: 1px solid #4f4f4f;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+.galeria .box-fotos-corte .cards-fotos-cortes h4 {
+  color: white;
+  font-size: 13px;
+  margin: 5px 10px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid orange;
+}
+.galeria .box-fotos-corte img {
+  width: 200px;
+  height: 180px;
+  border-radius: 5px 5px 0 0;
+}
+
 /*# sourceMappingURL=style.css.map */
