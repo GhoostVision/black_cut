@@ -3,4 +3,59 @@
 .servicos{
     background: $cor-secundaria;
     height: 300px;
+    display: flex;
+
+   
+}
+
+.apresentcao-servicos{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+     h2{
+        font-weight: 800;
+        color: $cor-tematica;
+        font-size: 15px;
+        margin: 0 30px;
+    }
+    p{
+        font-weight: 800;
+        font-size: 30px;
+        margin: 0 30px;
+        color: $cor-texto;
+    }
+
+    .info-servicos{
+        font-size: 12px;
+        width: 60%;
+        padding: 20px 0;
+    }
+}
+
+.cards-box-servico{
+    width: 50%;
+    background: $cor-secundaria;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    .cards-sevicos{
+        border: 1px solid $cor-bordas;
+        border-radius: 5px;
+        padding: 40px 10px;
+
+        h3{
+            font-size: 15px;
+            font-weight: 500;
+            color: $cor-texto;
+        }
+
+        span{
+            color: $cor-tematica;
+            font-weight: 700;
+        }
+    }
 }

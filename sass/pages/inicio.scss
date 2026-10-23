@@ -5,7 +5,10 @@
     justify-content: center;
     flex-direction: column;
     height: 400px;
-    background: $cor-primaria;
+    background: url(../cortefundo.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
 
     .textoMotivacional{
         margin: 0px 30px;
@@ -45,7 +48,7 @@
         margin: 10px;
         padding: 10px 40px;
         border: 1px solid $cor-tematica;
-        background: $cor-primaria;
+        background: none;
         color: $cor-texto;
         border-radius: 5px;
     }

@@ -1,0 +1,51 @@
+@use "../senttings/color.scss" as *;
+
+.sobre-loja{
+    display: flex;
+    height: 400px;
+    background: $cor-primaria;
+}
+
+.sobre-loja-informacoes{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    h2{
+        font-weight: 800;
+        color: $cor-tematica;
+        font-size: 15px;
+        margin: 0 30px;
+    }
+    p{
+        font-weight: 800;
+        font-size: 30px;
+        margin: 0 30px;
+        color: $cor-texto;
+    }
+
+    .info-sobre-nos{
+        font-size: 12px;
+        width: 70%;
+        padding: 20px 0;
+    }
+
+    span{
+        font-weight: 800;
+        font-size: 15px;
+        color: $cor-texto;
+        margin: 5px 30px;
+    }
+}
+
+.mapa-google-maps{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    iframe{
+        width:80%;
+        height: 300px;
+    }
+}

@@ -48,7 +48,10 @@ header .links-rapidios li a {
   justify-content: center;
   flex-direction: column;
   height: 400px;
-  background: black;
+  background: url(../cortefundo.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 .inicio .textoMotivacional {
   margin: 0px 30px;
@@ -83,13 +86,108 @@ header .links-rapidios li a {
   margin: 10px;
   padding: 10px 40px;
   border: 1px solid orange;
-  background: black;
+  background: none;
   color: white;
   border-radius: 5px;
 }
 
 .servicos {
   background: #141414;
+  height: 300px;
+  display: flex;
+}
+
+.apresentcao-servicos {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.apresentcao-servicos h2 {
+  font-weight: 800;
+  color: orange;
+  font-size: 15px;
+  margin: 0 30px;
+}
+.apresentcao-servicos p {
+  font-weight: 800;
+  font-size: 30px;
+  margin: 0 30px;
+  color: white;
+}
+.apresentcao-servicos .info-servicos {
+  font-size: 12px;
+  width: 60%;
+  padding: 20px 0;
+}
+
+.cards-box-servico {
+  width: 50%;
+  background: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.cards-box-servico .cards-sevicos {
+  border: 1px solid #4f4f4f;
+  border-radius: 5px;
+  padding: 40px 10px;
+}
+.cards-box-servico .cards-sevicos h3 {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+.cards-box-servico .cards-sevicos span {
+  color: orange;
+  font-weight: 700;
+}
+
+.sobre-loja {
+  display: flex;
+  height: 400px;
+  background: black;
+}
+
+.sobre-loja-informacoes {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.sobre-loja-informacoes h2 {
+  font-weight: 800;
+  color: orange;
+  font-size: 15px;
+  margin: 0 30px;
+}
+.sobre-loja-informacoes p {
+  font-weight: 800;
+  font-size: 30px;
+  margin: 0 30px;
+  color: white;
+}
+.sobre-loja-informacoes .info-sobre-nos {
+  font-size: 12px;
+  width: 70%;
+  padding: 20px 0;
+}
+.sobre-loja-informacoes span {
+  font-weight: 800;
+  font-size: 15px;
+  color: white;
+  margin: 5px 30px;
+}
+
+.mapa-google-maps {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mapa-google-maps iframe {
+  width: 80%;
   height: 300px;
 }
 
