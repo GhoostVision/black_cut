@@ -30,12 +30,13 @@ header .links-rapidios li a {
   display: flex;
   justify-content: center;
 }
-.caixa-button-header button {
+.caixa-button-header a {
   border: none;
   background: orange;
   color: white;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 5px 15px;
+  text-decoration: none;
 }
 
 * {
@@ -80,6 +81,7 @@ header .links-rapidios li a {
   border: none;
   background: orange;
   color: white;
+  text-decoration: none;
   border-radius: 5px;
 }
 .inicio .buttonInicio2 {
@@ -89,6 +91,7 @@ header .links-rapidios li a {
   background: none;
   color: white;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .servicos {
@@ -98,7 +101,7 @@ header .links-rapidios li a {
 }
 
 .apresentcao-servicos {
-  width: 50%;
+  width: 45%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -122,7 +125,7 @@ header .links-rapidios li a {
 }
 
 .cards-box-servico {
-  width: 50%;
+  width: 55%;
   background: #141414;
   display: flex;
   align-items: center;
@@ -132,12 +135,27 @@ header .links-rapidios li a {
 .cards-box-servico .cards-sevicos {
   border: 1px solid #4f4f4f;
   border-radius: 5px;
-  padding: 40px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  width: 25%;
+  margin-right: 5px;
+}
+.cards-box-servico .cards-sevicos i {
+  color: orange;
+  font-size: 30px;
 }
 .cards-box-servico .cards-sevicos h3 {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 800;
   color: white;
+}
+.cards-box-servico .cards-sevicos p {
+  color: white;
+  font-size: 10px;
+  width: 90%;
 }
 .cards-box-servico .cards-sevicos span {
   color: orange;
@@ -173,11 +191,17 @@ header .links-rapidios li a {
   width: 70%;
   padding: 20px 0;
 }
-.sobre-loja-informacoes span {
-  font-weight: 800;
+.sobre-loja-informacoes .info-horarios-localizacao {
+  font-weight: 600;
   font-size: 15px;
   color: white;
   margin: 5px 30px;
+}
+.sobre-loja-informacoes .info-horarios-localizacao i {
+  color: orange;
+}
+.sobre-loja-informacoes .info-horarios-localizacao strong {
+  color: orange;
 }
 
 .mapa-google-maps {
@@ -214,18 +238,20 @@ header .links-rapidios li a {
 }
 .galeria .box-fotos-corte {
   display: flex;
-  gap: 20px;
+  gap: 60px;
 }
 .galeria .box-fotos-corte .cards-fotos-cortes {
   border: 1px solid #4f4f4f;
   border-radius: 5px;
   padding-bottom: 20px;
 }
-.galeria .box-fotos-corte .cards-fotos-cortes h4 {
+.galeria .box-fotos-corte .cards-fotos-cortes h3 {
   color: white;
-  font-size: 13px;
-  margin: 5px 10px;
+  font-size: 15px;
+  padding-top: 12px;
+  margin: 0px 10px;
   padding-bottom: 3px;
+  font-weight: 700;
   border-bottom: 1px solid orange;
 }
 .galeria .box-fotos-corte img {

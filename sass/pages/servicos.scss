@@ -9,7 +9,7 @@
 }
 
 .apresentcao-servicos{
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -35,7 +35,7 @@
 }
 
 .cards-box-servico{
-    width: 50%;
+    width: 55%;
     background: $cor-secundaria;
     display: flex;
     align-items: center;
@@ -45,12 +45,28 @@
     .cards-sevicos{
         border: 1px solid $cor-bordas;
         border-radius: 5px;
-        padding: 40px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 150px;
+        width: 25%;
+        margin-right: 5px;
+
+        i{
+            color: $cor-tematica;
+            font-size: 30px;
+        }
 
         h3{
             font-size: 15px;
-            font-weight: 500;
+            font-weight: 800;
             color: $cor-texto;
+        }
+        p{
+            color: $cor-texto;
+            font-size: 10px;
+            width: 90%;
         }
 
         span{

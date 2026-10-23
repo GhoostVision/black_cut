@@ -26,18 +26,20 @@
 
     .box-fotos-corte{
         display: flex;
-        gap: 20px;
+        gap: 60px;
 
         .cards-fotos-cortes{
             border: 1px solid $cor-bordas;
             border-radius: 5px;
             padding-bottom: 20px;
 
-            h4{
+            h3{
                 color: $cor-texto;
-                font-size: 13px;
-                margin: 5px 10px;
+                font-size: 15px;
+                padding-top: 12px;
+                margin: 0px 10px;
                 padding-bottom: 3px;
+                font-weight: 700;
                 border-bottom: 1px solid $cor-tematica;
             }
         }

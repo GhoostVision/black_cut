@@ -37,11 +37,12 @@ header{
 .caixa-button-header{
     display: flex;
     justify-content: center;
-    button{
+    a{
         border: none;
         background: $cor-tematica;
         color: $cor-texto;
         border-radius: 5px;
-        padding: 5px 10px;
+        padding: 5px 15px;
+        text-decoration: none;
     }
 }

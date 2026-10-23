@@ -31,11 +31,19 @@
         padding: 20px 0;
     }
 
-    span{
-        font-weight: 800;
+    .info-horarios-localizacao{
+        font-weight: 600;
         font-size: 15px;
         color: $cor-texto;
         margin: 5px 30px;
+
+        i{
+            color: $cor-tematica;
+        }
+
+        strong{
+            color: $cor-tematica;
+        }
     }
 }
 
