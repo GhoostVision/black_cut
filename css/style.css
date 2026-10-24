@@ -763,5 +763,43 @@ footer .footer-contato a {
     font-size: 21px;
   }
 }
+.links-rapidios a {
+  transition: 0.5s;
+}
+.links-rapidios a:hover {
+  color: orange;
+}
+
+.buttonInicio1, .button-agendar, .buttonInicio2, .footer-agendar, .agendar-contato {
+  transition: 0.8s;
+  display: inline-block;
+}
+.buttonInicio1:hover, .button-agendar:hover, .buttonInicio2:hover, .footer-agendar:hover, .agendar-contato:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 10px orange;
+}
+
+a {
+  transition: 0.8s;
+  display: inline-block;
+}
+a:hover {
+  transform: scale(1.05);
+}
+
+.cards-sevicos {
+  transition: 0.8s;
+}
+.cards-sevicos:hover {
+  transform: scale(1.05);
+  box-shadow: 3px 3px 10px orange;
+}
+
+.cards-fotos-cortes {
+  transition: 0.5s;
+}
+.cards-fotos-cortes:hover {
+  transform: scale(1.05);
+}
 
 /*# sourceMappingURL=style.css.map */
