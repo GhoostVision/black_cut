@@ -260,7 +260,6 @@ header .links-rapidios li a {
   border-radius: 5px 5px 0 0;
 }
 
-<<<<<<< HEAD
 footer {
   display: flex;
   flex-direction: column;
@@ -333,8 +332,6 @@ footer .footer-contato a {
   color: white;
 }
 
-=======
->>>>>>> 524e69aceedab2ce78b25b5f1a9336f86840b198
 .contato {
   background: black;
 }
@@ -431,79 +428,4 @@ footer .footer-contato a {
   margin: 20px 0;
 }
 
-<<<<<<< HEAD
-=======
-footer {
-  display: flex;
-  flex-direction: column;
-  background: #141414;
-}
-footer .footer-conteudo {
-  display: flex;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #4f4f4f;
-}
-footer .footer-marca {
-  padding: 10px;
-  width: 40%;
-}
-footer .footer-marca h2 {
-  color: orange;
-  font-weight: 800;
-}
-footer .footer-marca p {
-  color: white;
-  width: 70%;
-}
-footer .footer-marca .footer-redes a {
-  text-decoration: none;
-  margin-right: 10px;
-}
-footer .footer-marca .footer-redes i {
-  color: orange;
-  font-size: 20px;
-  padding: 10px;
-  border-radius: 5px;
-  background: rgba(255, 165, 0, 0.12);
-}
-footer .footer-links {
-  display: flex;
-  width: 30%;
-  flex-direction: column;
-}
-footer .footer-links h3 {
-  font-weight: 800;
-  color: orange;
-}
-footer .footer-links a {
-  color: white;
-  text-decoration: none;
-}
-footer .footer-contato {
-  width: 20%;
-}
-footer .footer-contato h3 {
-  font-weight: 800;
-  color: orange;
-}
-footer .footer-contato p {
-  color: white;
-}
-footer .footer-contato a {
-  color: white;
-  background: orange;
-  padding: 10px 30px;
-  border-radius: 5px;
-  text-decoration: none;
-}
-
-.footer-inferior {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 10px;
-  color: white;
-}
-
->>>>>>> 524e69aceedab2ce78b25b5f1a9336f86840b198
 /*# sourceMappingURL=style.css.map */
