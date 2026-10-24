@@ -260,4 +260,172 @@ header .links-rapidios li a {
   border-radius: 5px 5px 0 0;
 }
 
+.contato {
+  background: black;
+}
+.contato .subtitulo-contato {
+  margin: 0 20px;
+  padding-top: 30px;
+  color: orange;
+  font-weight: 800;
+  font-size: 15px;
+}
+.contato h2 {
+  margin: 0 20px;
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+}
+.contato h2 strong {
+  color: orange;
+}
+
+.agendamento-direto {
+  border: 1px solid #4f4f4f;
+  border-radius: 5px;
+  padding: 30px;
+  width: 50%;
+  margin: 20px;
+  color: white;
+}
+
+.box-contado-rede-sociais {
+  border: 1px solid #4f4f4f;
+  border-radius: 5px;
+  padding: 30px;
+  width: 50%;
+  margin: 20px;
+  color: white;
+}
+.box-contado-rede-sociais h3 {
+  font-weight: 800;
+}
+.box-contado-rede-sociais p {
+  font-size: 15px;
+}
+.box-contado-rede-sociais .box-rede-sociais {
+  display: flex;
+  border-bottom: 1px solid #4f4f4f;
+  margin: 10px 0;
+  padding-bottom: 10px;
+}
+.box-contado-rede-sociais .box-rede-sociais .icon-rede-social {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+.box-contado-rede-sociais .box-rede-sociais .icon-rede-social i {
+  color: orange;
+  padding: 13px;
+  background: rgba(255, 165, 0, 0.12);
+  border-radius: 5px;
+}
+.box-contado-rede-sociais .box-rede-sociais .info-rede-social .nome-rede-social {
+  font-weight: 800;
+}
+.box-contado-rede-sociais .box-rede-sociais .info-rede-social p {
+  margin: 5px 0;
+}
+.box-contado-rede-sociais .box-rede-sociais .info-rede-social a {
+  text-decoration: none;
+  color: orange;
+}
+
+.agendamento-direto .subtitulo-contato {
+  font-weight: 800;
+  font-size: 15px;
+  margin: 0;
+}
+.agendamento-direto h3 {
+  font-weight: 800;
+  font-size: 30px;
+}
+.agendamento-direto h3 strong {
+  color: orange;
+}
+.agendamento-direto p {
+  width: 60%;
+  margin: 30px 0;
+}
+.agendamento-direto a {
+  padding: 10px 30px;
+  background: orange;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background: #141414;
+}
+footer .footer-conteudo {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #4f4f4f;
+}
+footer .footer-marca {
+  padding: 10px;
+  width: 40%;
+}
+footer .footer-marca h2 {
+  color: orange;
+  font-weight: 800;
+}
+footer .footer-marca p {
+  color: white;
+  width: 70%;
+}
+footer .footer-marca .footer-redes a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+footer .footer-marca .footer-redes i {
+  color: orange;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(255, 165, 0, 0.12);
+}
+footer .footer-links {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+}
+footer .footer-links h3 {
+  font-weight: 800;
+  color: orange;
+}
+footer .footer-links a {
+  color: white;
+  text-decoration: none;
+}
+footer .footer-contato {
+  width: 20%;
+}
+footer .footer-contato h3 {
+  font-weight: 800;
+  color: orange;
+}
+footer .footer-contato p {
+  color: white;
+}
+footer .footer-contato a {
+  color: white;
+  background: orange;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.footer-inferior {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */

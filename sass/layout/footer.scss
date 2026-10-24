@@ -1,0 +1,88 @@
+@use "../senttings/color.scss" as *;
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background: $cor-secundaria;
+
+    .footer-conteudo{
+        display: flex;
+        padding-bottom: 10px;
+        border-bottom: 1px solid $cor-bordas;
+
+    }
+    
+    .footer-marca{
+        padding: 10px;
+        width: 40%;
+        h2{
+            color: $cor-tematica;
+            font-weight: 800;
+        }
+        p{
+            color: $cor-texto;
+            width: 70%;
+        }
+
+        .footer-redes{
+
+            a{
+                text-decoration: none;
+                margin-right:10px;
+            }
+
+            i{
+                color: $cor-tematica;
+                font-size: 20px;
+                padding: 10px;
+                border-radius: 5px;
+                background: rgba(255, 165, 0, 0.12);
+            }
+        }
+    }
+
+    .footer-links{
+        display: flex;
+        width: 30%;
+        flex-direction: column;
+
+        h3{
+            font-weight: 800;
+            color: $cor-tematica;
+        }
+
+        a{
+            color: $cor-texto;
+            text-decoration: none;
+        }
+    }
+
+    .footer-contato{
+        width: 20%;
+        
+        h3{
+            font-weight: 800;
+            color: $cor-tematica;
+        }
+
+        p{
+            color: $cor-texto;
+        }
+
+        a{
+            color: $cor-texto;
+            background: $cor-tematica;
+            padding: 10px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    }
+}
+
+.footer-inferior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    color: $cor-texto;
+}
