@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   height: 60px;
   background: #141414;
@@ -426,6 +427,340 @@ footer .footer-contato a {
   color: white;
   border-radius: 5px;
   margin: 20px 0;
+}
+
+/* ========================================
+   RESPONSIVIDADE PARA CELULARES
+======================================== */
+@media (max-width: 830px) {
+  /* HEADER */
+  header {
+    height: 60px;
+  }
+  header nav {
+    height: 100%;
+  }
+  header .logo_inicio {
+    width: 150px;
+    height: 55px;
+  }
+  header .caixa-links-rapido,
+  header .caixa-button-header {
+    display: none;
+  }
+  /* INÍCIO */
+  .inicio {
+    height: auto;
+    min-height: 400px;
+    padding: 45px 20px;
+    background-position: center;
+  }
+  .inicio .textoMotivacional {
+    margin: 0 0 10px;
+  }
+  .inicio h1 {
+    font-size: clamp(38px, 10vw, 52px);
+    margin: 0 0 10px;
+  }
+  .inicio p {
+    width: 100%;
+    margin: 10px 0 20px;
+    font-size: 15px;
+  }
+  .inicio > .d-flex {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .inicio .buttonInicio1,
+  .inicio .buttonInicio2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+  /* SERVIÇOS */
+  .servicos {
+    height: auto;
+    padding: 40px 20px;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .apresentcao-servicos {
+    width: 100%;
+  }
+  .apresentcao-servicos h2 {
+    margin: 0 0 8px;
+    font-size: 14px;
+  }
+  .apresentcao-servicos p {
+    margin: 0;
+    font-size: 25px;
+  }
+  .apresentcao-servicos .info-servicos {
+    width: 100%;
+    padding: 15px 0 0;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .cards-box-servico {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .cards-box-servico .cards-sevicos {
+    box-sizing: border-box;
+    width: calc(50% - 6px);
+    height: 170px;
+    margin: 0;
+    padding: 12px 6px;
+    text-align: center;
+  }
+  .cards-box-servico .cards-sevicos i {
+    font-size: 27px;
+  }
+  .cards-box-servico .cards-sevicos h3 {
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .cards-box-servico .cards-sevicos p {
+    width: 100%;
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
+  .cards-box-servico .cards-sevicos span {
+    font-size: 14px;
+  }
+  /* SOBRE NÓS E LOCALIZAÇÃO */
+  .sobre-loja {
+    height: auto;
+    padding: 40px 20px;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .sobre-loja-informacoes {
+    width: 100%;
+  }
+  .sobre-loja-informacoes h2 {
+    margin: 0 0 8px;
+    font-size: 14px;
+  }
+  .sobre-loja-informacoes > p:not(.info-sobre-nos):not(.info-horarios-localizacao) {
+    margin: 0;
+    font-size: 25px;
+  }
+  .sobre-loja-informacoes .info-sobre-nos {
+    width: 100%;
+    padding: 15px 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .sobre-loja-informacoes .info-horarios-localizacao {
+    margin: 8px 0;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  .mapa-google-maps {
+    width: 100%;
+  }
+  .mapa-google-maps iframe {
+    width: 100%;
+    height: 250px;
+  }
+  /* GALERIA */
+  .galeria {
+    height: auto;
+    padding: 40px 20px;
+  }
+  .galeria h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .galeria > p {
+    font-size: 11px;
+    text-align: center;
+    margin: 10px 0 25px;
+  }
+  .galeria .box-fotos-corte {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+  .galeria .box-fotos-corte .cards-fotos-cortes {
+    box-sizing: border-box;
+    width: calc(50% - 6px);
+    padding-bottom: 10px;
+  }
+  .galeria .box-fotos-corte .cards-fotos-cortes img {
+    display: block;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  .galeria .box-fotos-corte .cards-fotos-cortes h3 {
+    font-size: 13px;
+    margin: 0 8px;
+    padding-top: 10px;
+    overflow-wrap: anywhere;
+  }
+  /* CONTATO */
+  .contato {
+    padding-bottom: 25px;
+  }
+  .contato .subtitulo-contato {
+    margin: 0 20px;
+    padding-top: 25px;
+    font-size: 12px;
+  }
+  .contato > h2 {
+    font-size: 25px;
+  }
+  .contato > .d-flex {
+    flex-direction: column;
+    gap: 0;
+  }
+  .box-contado-rede-sociais,
+  .agendamento-direto {
+    box-sizing: border-box;
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+  }
+  .box-contado-rede-sociais h3 {
+    font-size: 20px;
+  }
+  .box-contado-rede-sociais > p {
+    font-size: 13px;
+  }
+  .box-contado-rede-sociais .box-rede-sociais {
+    gap: 10px;
+  }
+  .box-contado-rede-sociais .box-rede-sociais .icon-rede-social {
+    margin-right: 0;
+    flex-shrink: 0;
+  }
+  .box-contado-rede-sociais .box-rede-sociais .info-rede-social {
+    min-width: 0;
+  }
+  .box-contado-rede-sociais .box-rede-sociais .info-rede-social p {
+    font-size: 13px;
+    overflow-wrap: anywhere;
+  }
+  .box-contado-rede-sociais .box-rede-sociais .info-rede-social .nome-rede-social {
+    font-size: 15px;
+  }
+  .box-contado-rede-sociais .box-rede-sociais .info-rede-social a {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  .agendamento-direto .subtitulo-contato {
+    margin: 0;
+    padding-top: 0;
+  }
+  .agendamento-direto h3 {
+    font-size: 24px;
+  }
+  .agendamento-direto p {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 14px;
+  }
+  .agendamento-direto a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding: 12px;
+    margin: 10px 0 0;
+    text-align: center;
+    font-size: 14px;
+  }
+  /* RODAPÉ */
+  footer .footer-conteudo {
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 20px;
+  }
+  footer .footer-marca,
+  footer .footer-links,
+  footer .footer-contato {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  footer .footer-marca {
+    padding: 0;
+  }
+  footer .footer-marca p {
+    width: 100%;
+    font-size: 14px;
+  }
+  footer .footer-links {
+    gap: 8px;
+  }
+  footer .footer-links h3 {
+    font-size: 18px;
+  }
+  footer .footer-contato h3 {
+    font-size: 18px;
+  }
+  footer .footer-contato p {
+    font-size: 14px;
+  }
+  footer .footer-contato .footer-agendar {
+    display: inline-block;
+    padding: 10px 18px;
+  }
+  footer .footer-inferior {
+    padding: 15px 20px;
+    text-align: center;
+  }
+  footer .footer-inferior p {
+    margin: 0;
+    font-size: 12px;
+  }
+}
+/* ========================================
+   CELULARES COM TELAS PEQUENAS
+======================================== */
+@media (max-width: 420px) {
+  .inicio {
+    padding: 35px 16px;
+  }
+  .inicio .buttonInicio1,
+  .inicio .buttonInicio2 {
+    padding: 11px 12px;
+    font-size: 12px;
+  }
+  .cards-box-servico .cards-sevicos {
+    height: 180px;
+    padding: 10px 5px;
+  }
+  .cards-box-servico .cards-sevicos h3 {
+    font-size: 12px;
+  }
+  .cards-box-servico .cards-sevicos p {
+    font-size: 10px;
+  }
+  .galeria .box-fotos-corte .cards-fotos-cortes img {
+    height: 125px;
+  }
+  .galeria .box-fotos-corte .cards-fotos-cortes h3 {
+    font-size: 12px;
+  }
+  .box-contado-rede-sociais,
+  .agendamento-direto {
+    margin: 15px;
+    padding: 15px;
+  }
+  .agendamento-direto h3 {
+    font-size: 21px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

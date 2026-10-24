@@ -1,0 +1,428 @@
+
+/* ========================================
+   RESPONSIVIDADE PARA CELULARES
+======================================== */
+
+@media (max-width: 830px) {
+
+  /* HEADER */
+  header {
+    height: 60px;
+
+    nav {
+      height: 100%;
+    }
+
+    .logo_inicio {
+      width: 150px;
+      height: 55px;
+    }
+
+    .caixa-links-rapido,
+    .caixa-button-header {
+      display: none;
+    }
+  }
+
+  /* INÍCIO */
+  .inicio {
+    height: auto;
+    min-height: 400px;
+    padding: 45px 20px;
+    background-position: center;
+
+    .textoMotivacional {
+      margin: 0 0 10px;
+    }
+
+    h1 {
+      font-size: clamp(38px, 10vw, 52px);
+      margin: 0 0 10px;
+    }
+
+    p {
+      width: 100%;
+      margin: 10px 0 20px;
+      font-size: 15px;
+    }
+
+    > .d-flex {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .buttonInicio1,
+    .buttonInicio2 {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      padding: 12px 16px;
+      font-size: 14px;
+    }
+  }
+
+  /* SERVIÇOS */
+  .servicos {
+    height: auto;
+    padding: 40px 20px;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .apresentcao-servicos {
+    width: 100%;
+
+    h2 {
+      margin: 0 0 8px;
+      font-size: 14px;
+    }
+
+    p {
+      margin: 0;
+      font-size: 25px;
+    }
+
+    .info-servicos {
+      width: 100%;
+      padding: 15px 0 0;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+
+  .cards-box-servico {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    .cards-sevicos {
+      box-sizing: border-box;
+      width: calc(50% - 6px);
+      height: 170px;
+      margin: 0;
+      padding: 12px 6px;
+      text-align: center;
+
+      i {
+        font-size: 27px;
+      }
+
+      h3 {
+        font-size: 14px;
+        margin-top: 5px;
+        text-align: center;
+      }
+
+      p {
+        width: 100%;
+        font-size: 11px;
+        margin-bottom: 8px;
+      }
+
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+
+  /* SOBRE NÓS E LOCALIZAÇÃO */
+  .sobre-loja {
+    height: auto;
+    padding: 40px 20px;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .sobre-loja-informacoes {
+    width: 100%;
+
+    h2 {
+      margin: 0 0 8px;
+      font-size: 14px;
+    }
+
+    > p:not(.info-sobre-nos):not(.info-horarios-localizacao) {
+      margin: 0;
+      font-size: 25px;
+    }
+
+    .info-sobre-nos {
+      width: 100%;
+      padding: 15px 0;
+      margin: 0;
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    .info-horarios-localizacao {
+      margin: 8px 0;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+  }
+
+  .mapa-google-maps {
+    width: 100%;
+
+    iframe {
+      width: 100%;
+      height: 250px;
+    }
+  }
+
+  /* GALERIA */
+  .galeria {
+    height: auto;
+    padding: 40px 20px;
+
+    h2 {
+      font-size: 25px;
+      text-align: center;
+    }
+
+    > p {
+      font-size: 11px;
+      text-align: center;
+      margin: 10px 0 25px;
+    }
+
+    .box-fotos-corte {
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+
+      .cards-fotos-cortes {
+        box-sizing: border-box;
+        width: calc(50% - 6px);
+        padding-bottom: 10px;
+
+        img {
+          display: block;
+          width: 100%;
+          height: 150px;
+          object-fit: cover;
+        }
+
+        h3 {
+          font-size: 13px;
+          margin: 0 8px;
+          padding-top: 10px;
+          overflow-wrap: anywhere;
+        }
+      }
+    }
+  }
+
+  /* CONTATO */
+  .contato {
+    padding-bottom: 25px;
+
+    .subtitulo-contato {
+      margin: 0 20px;
+      padding-top: 25px;
+      font-size: 12px;
+    }
+
+    > h2 {
+      font-size: 25px;
+    }
+
+    > .d-flex {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
+
+  .box-contado-rede-sociais,
+  .agendamento-direto {
+    box-sizing: border-box;
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .box-contado-rede-sociais {
+    h3 {
+      font-size: 20px;
+    }
+
+    > p {
+      font-size: 13px;
+    }
+
+    .box-rede-sociais {
+      gap: 10px;
+
+      .icon-rede-social {
+        margin-right: 0;
+        flex-shrink: 0;
+      }
+
+      .info-rede-social {
+        min-width: 0;
+
+        p {
+          font-size: 13px;
+          overflow-wrap: anywhere;
+        }
+
+        .nome-rede-social {
+          font-size: 15px;
+        }
+
+        a {
+          display: inline-block;
+          font-size: 12px;
+          line-height: 1.6;
+        }
+      }
+    }
+  }
+
+  .agendamento-direto {
+    .subtitulo-contato {
+      margin: 0;
+      padding-top: 0;
+    }
+
+    h3 {
+      font-size: 24px;
+    }
+
+    p {
+      width: 100%;
+      margin: 20px 0;
+      font-size: 14px;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      padding: 12px;
+      margin: 10px 0 0;
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+
+  /* RODAPÉ */
+  footer {
+    .footer-conteudo {
+      flex-direction: column;
+      gap: 25px;
+      padding: 25px 20px;
+    }
+
+    .footer-marca,
+    .footer-links,
+    .footer-contato {
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    .footer-marca {
+      padding: 0;
+
+      p {
+        width: 100%;
+        font-size: 14px;
+      }
+    }
+
+    .footer-links {
+      gap: 8px;
+
+      h3 {
+        font-size: 18px;
+      }
+    }
+
+    .footer-contato {
+      h3 {
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      .footer-agendar {
+        display: inline-block;
+        padding: 10px 18px;
+      }
+    }
+
+    .footer-inferior {
+      padding: 15px 20px;
+      text-align: center;
+
+      p {
+        margin: 0;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+/* ========================================
+   CELULARES COM TELAS PEQUENAS
+======================================== */
+
+@media (max-width: 420px) {
+
+  .inicio {
+    padding: 35px 16px;
+
+    .buttonInicio1,
+    .buttonInicio2 {
+      padding: 11px 12px;
+      font-size: 12px;
+    }
+  }
+
+  .cards-box-servico {
+    .cards-sevicos {
+      height: 180px;
+      padding: 10px 5px;
+
+      h3 {
+        font-size: 12px;
+      }
+
+      p {
+        font-size: 10px;
+      }
+    }
+  }
+
+  .galeria {
+    .box-fotos-corte {
+      .cards-fotos-cortes {
+        img {
+          height: 125px;
+        }
+
+        h3 {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .box-contado-rede-sociais,
+  .agendamento-direto {
+    margin: 15px;
+    padding: 15px;
+  }
+
+  .agendamento-direto {
+    h3 {
+      font-size: 21px;
+    }
+  }
+}
