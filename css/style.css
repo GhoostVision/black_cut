@@ -50,7 +50,7 @@ header .links-rapidios li a {
   justify-content: center;
   flex-direction: column;
   height: 400px;
-  background: url(../cortefundo.png);
+  background: url(../imagens/cortefundo.png);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -265,7 +265,9 @@ header .links-rapidios li a {
 footer {
   display: flex;
   flex-direction: column;
+  border-top: 2px solid #4f4f4f;
   background: #141414;
+  padding-top: 10px;
 }
 footer .footer-conteudo {
   display: flex;

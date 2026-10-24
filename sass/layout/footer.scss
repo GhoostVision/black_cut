@@ -3,7 +3,9 @@
 footer{
     display: flex;
     flex-direction: column;
+    border-top: 2px solid $cor-bordas;
     background: $cor-secundaria;
+    padding-top: 10px;
 
     .footer-conteudo{
         display: flex;
