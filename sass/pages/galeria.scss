@@ -7,6 +7,13 @@
     flex-direction: column;
     height: 400px;
     background: $cor-secundaria;
+     background:
+        radial-gradient(
+            circle at 80% 30%,
+            rgba(255, 165, 0, 0.18) 0%,
+            transparent 45%
+        ),
+        #000;
 
     h2{
         font-weight: 800;
